@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
     engine.addImageProvider("live",liveImageProvider);
 
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/SendOpencvToQmlQthread/main.qml"));
 
     engine.load(url);
 

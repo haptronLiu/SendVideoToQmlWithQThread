@@ -6,7 +6,7 @@
 #include <QImage>
 #include <QQuickImageProvider>
 
-class OpencvImageProvider : public QObject, public QQuickImageProvider
+class OpencvImageProvider : public QQuickImageProvider
 {
     Q_OBJECT
 public:
